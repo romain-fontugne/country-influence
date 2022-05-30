@@ -3,7 +3,7 @@ import requests_cache
 
 START_DATE = '2022-05-01T00:00'
 END_DATE = '2022-05-31T00:00'
-CC_ISPS = 'IN'
+CC_ISPS = 'ES'
 API_ISPS = "https://ihr.iijlab.net/ihr/api/hegemony/countries/?timebin__lte={end_date}&timebin__gte={start_date}&country={country_isp}&hege__gte=0.01&format=json"
 API_DEPENDENT = "https://ihr.iijlab.net/ihr/api/hegemony/countries/?timebin__lte={end_date}&timebin__gte={start_date}&asn={asns}&transitonly=false&format=json"
 
